@@ -1,0 +1,23 @@
+body{
+background-color: black;
+background-image: url(../images/Illustrations/Bathome1.png);
+background-repeat: no-repeat;
+background-attachment: scroll;
+color: #FFFF;
+}
+h1{
+    font-family: url(/fonts/Rajdhani/Rajdhani-Medium.ttf);
+    font-size: 36px;
+}
+#accueil{
+    text-align: right;
+    color: #FFFF;
+}
+figure{
+    display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+aside
