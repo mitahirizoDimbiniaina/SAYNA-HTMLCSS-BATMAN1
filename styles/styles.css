@@ -1,23 +1,169 @@
+
+/*police*/ 
+
+@font-face{
+    font-family: 'Rajdhani-Medium';
+    src: local("Rajdhani"), url(../fonts/Rajdhani/Rajdhani-Medium.ttf)
+}
+@font-face{
+   font-family: 'SpaceGrotesk-Bold';
+   src: url(../fonts/SpaceGrotesk/SpaceGrotesk-Bold.ttf);
+}
+@font-face{
+    font-family: 'SpaceGrotesk-Regular';
+    src: url(../fonts/SpaceGrotesk/SpaceGrotesk-Regular.ttf);
+}
 body{
 background-color: black;
 background-image: url(../images/Illustrations/Bathome1.png);
+background-size: 100%;
+margin-top: 10;
 background-repeat: no-repeat;
 background-attachment: scroll;
-color: #FFFF;
+font-family: 'SpaceGrotesk-Regular';
+color: white;
 }
-h1{
-    font-family: url(/fonts/Rajdhani/Rajdhani-Medium.ttf);
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; 
+}
+header {
+    padding: 70px 102px 102px 102px;
+    border: 3px solid rgba(188, 187, 189, 0.2);
+    height: 132px;
+    padding: 20px;
+    padding-bottom: 200px;
+    border-bottom: none;
+    margin-left: 10%;
+    margin-right: 85px;
+
+}
+aside{
+    float: right;
+    position: fixed;
+    margin-left: 81%;
+    text-align: center;
+}
+aside img{
+    margin-top: 25px;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+ .context{
+     text-align: center;
+
+}
+
+
+    h1{
+    font-family: 'Rajdhani-Medium';
     font-size: 36px;
 }
 #accueil{
     text-align: right;
     color: #FFFF;
 }
-figure{
-    display: block;
-  margin-top: 1em;
-  margin-bottom: 1em;
-  margin-left: 40px;
-  margin-right: 40px;
+.home-btn{
+    color: #FFFF;
+    font-family: url(/fonts/Rajdhani/Rajdhani-Medium.ttf);
+    font-size: 20px;
+
 }
-aside
+.btn{
+    margin-top: 100px;
+    color: white;
+    text-align: center;
+}
+.fleche{
+    margin-top: 200px;
+   text-align: center;
+}
+main {
+    border: 3px solid rgba(188, 187, 189, 0.2);
+    padding: 20px;
+    padding-bottom: 200px;
+    border-top: none;
+    border-bottom: none;
+    margin-left: 10%;
+    margin-right: 85px;
+    text-align: justify;
+}
+.intro{
+    border: 3px solid rgba(188, 187, 189, 0.2);
+    padding: 20px;
+    margin-left: 10%;
+    margin-right: 85px
+}
+
+.bouton{
+    color: white;
+    border: none;
+    margin-top: 100px;
+   
+    padding: 10px 50px;
+    font-family: 'Rajdhani-Medium';
+    font-size: 20px;
+    background: linear-gradient(to right,rgb(237, 222, 191) 40%, rgb(138, 0, 9)60%);
+width: 250px;
+    display: inline-block;
+    text-align: center;
+    background-color: transparent;
+    opacity: 0.6;
+    
+}  
+
+.context{
+    text-align: center;
+    padding: 15px;
+    margin: 0 auto;
+}
+.txt1 , .txt2 , .txt3 , .txt4{
+    padding-right: 100px;
+    text-align: justify;
+    font-size: 18px;
+}
+.--Contenu{
+    padding: 50px ;
+}
+.--Contenu div div{
+    display: block;
+    padding-right: 60px;
+    
+    
+}
+.--Contenu div p{
+    text-align: center;
+    font-size: 20px;
+    margin: 18px;
+}
+
+.justice div{
+    margin-left: -20%;
+    margin-top: 50px;
+}
+/*contenu multimedia*/
+.iconfleche{
+    margin-top: 13% ;
+}
+.batbegins{
+    display: flex;
+    height: 200px;
+    margin-left: 25%;
+}
+.txt5{
+    font-size: 12px;
+}
+.action{
+    width: 400px;
+    padding: 15px;
+    background: linear-gradient(to right, rgba(240, 223, 191, 0.3),rgba(25,90,125,0.3));
+    border-top-right-radius: 20px;
+   border-bottom-right-radius: 20px;
+
+}
+.video{
+    margin-top: 25%;
+}
